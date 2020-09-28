@@ -3,16 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2B5DDD3325225E8D00037BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3225225E8D00037BBB /* AppDelegate.swift */; };
 		2B5DDD3525225E8D00037BBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3425225E8D00037BBB /* SceneDelegate.swift */; };
-		2B5DDD3725225E8D00037BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3625225E8D00037BBB /* ViewController.swift */; };
+		2B5DDD3725225E8D00037BBB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3625225E8D00037BBB /* HomeViewController.swift */; };
 		2B5DDD3A25225E8D00037BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3825225E8D00037BBB /* Main.storyboard */; };
 		2B5DDD3C25225E9300037BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3B25225E9300037BBB /* Assets.xcassets */; };
 		2B5DDD3F25225E9300037BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3D25225E9300037BBB /* LaunchScreen.storyboard */; };
+		2B5DDD5B2522605E00037BBB /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DDD5A2522605E00037BBB /* HelperClass.swift */; };
+		2B5DDD5F2522652300037BBB /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DDD5E2522652300037BBB /* Connectivity.swift */; };
+		2B5DDD632522812C00037BBB /* RequestLoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DDD622522812C00037BBB /* RequestLoanViewController.swift */; };
+		2B5DDD6C25229A4000037BBB /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DDD6B25229A4000037BBB /* SuccessViewController.swift */; };
 		A21ACD2C144F186EE2F6346C /* Pods_Loanus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A172D232EF60CE3CAC6E1E40 /* Pods_Loanus.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,11 +25,15 @@
 		2B5DDD2F25225E8D00037BBB /* Loanus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loanus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5DDD3225225E8D00037BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B5DDD3425225E8D00037BBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2B5DDD3625225E8D00037BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B5DDD3625225E8D00037BBB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2B5DDD3925225E8D00037BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B5DDD3B25225E9300037BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B5DDD3E25225E9300037BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B5DDD4025225E9300037BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5DDD5A2522605E00037BBB /* HelperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
+		2B5DDD5E2522652300037BBB /* Connectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		2B5DDD622522812C00037BBB /* RequestLoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestLoanViewController.swift; sourceTree = "<group>"; };
+		2B5DDD6B25229A4000037BBB /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		46F058C0D4F6E0D413DF563C /* Pods-Loanus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loanus.debug.xcconfig"; path = "Target Support Files/Pods-Loanus/Pods-Loanus.debug.xcconfig"; sourceTree = "<group>"; };
 		A172D232EF60CE3CAC6E1E40 /* Pods_Loanus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loanus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -63,15 +71,27 @@
 		2B5DDD3125225E8D00037BBB /* Loanus */ = {
 			isa = PBXGroup;
 			children = (
+				2B5DDD592522605000037BBB /* Helpers */,
 				2B5DDD3225225E8D00037BBB /* AppDelegate.swift */,
 				2B5DDD3425225E8D00037BBB /* SceneDelegate.swift */,
-				2B5DDD3625225E8D00037BBB /* ViewController.swift */,
+				2B5DDD3625225E8D00037BBB /* HomeViewController.swift */,
 				2B5DDD3825225E8D00037BBB /* Main.storyboard */,
 				2B5DDD3B25225E9300037BBB /* Assets.xcassets */,
 				2B5DDD3D25225E9300037BBB /* LaunchScreen.storyboard */,
 				2B5DDD4025225E9300037BBB /* Info.plist */,
+				2B5DDD622522812C00037BBB /* RequestLoanViewController.swift */,
+				2B5DDD6B25229A4000037BBB /* SuccessViewController.swift */,
 			);
 			path = Loanus;
+			sourceTree = "<group>";
+		};
+		2B5DDD592522605000037BBB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2B5DDD5E2522652300037BBB /* Connectivity.swift */,
+				2B5DDD5A2522605E00037BBB /* HelperClass.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		653B1E20092D477C16833F3D /* Pods */ = {
@@ -80,7 +100,6 @@
 				46F058C0D4F6E0D413DF563C /* Pods-Loanus.debug.xcconfig */,
 				244B605E76D783836FD79AF3 /* Pods-Loanus.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,7 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5DDD3725225E8D00037BBB /* ViewController.swift in Sources */,
+				2B5DDD632522812C00037BBB /* RequestLoanViewController.swift in Sources */,
+				2B5DDD6C25229A4000037BBB /* SuccessViewController.swift in Sources */,
+				2B5DDD3725225E8D00037BBB /* HomeViewController.swift in Sources */,
+				2B5DDD5B2522605E00037BBB /* HelperClass.swift in Sources */,
+				2B5DDD5F2522652300037BBB /* Connectivity.swift in Sources */,
 				2B5DDD3325225E8D00037BBB /* AppDelegate.swift in Sources */,
 				2B5DDD3525225E8D00037BBB /* SceneDelegate.swift in Sources */,
 			);

@@ -8,5 +8,6 @@ target 'Loanus' do
   # Pods for Loanus
   pod 'Alamofire'
   pod 'PKHUD'
+  pod 'IQKeyboardManager' #iOS8 and later
 
 end
