@@ -19,7 +19,7 @@ class RequestLoanViewController: UIViewController {
     let dropDownImage = UIImageView(image: UIImage(named: "img-dropdown"))
     
     var pickerLocation: UIPickerView!
-    let arrayLocation = ["k","l"]
+    let arrayLocation = ["Lekki","Yaba","Ojota","Okota","Ketu","Magodo","Gbagada"]
 
 
     let customleftView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 40))
