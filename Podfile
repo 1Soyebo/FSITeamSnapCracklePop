@@ -7,4 +7,6 @@ target 'Loanus' do
 
   # Pods for Loanus
   pod 'Alamofire'
+  pod 'PKHUD'
+
 end
