@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B5DDD3325225E8D00037BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3225225E8D00037BBB /* AppDelegate.swift */; };
+		2B5DDD3525225E8D00037BBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3425225E8D00037BBB /* SceneDelegate.swift */; };
+		2B5DDD3725225E8D00037BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3625225E8D00037BBB /* ViewController.swift */; };
+		2B5DDD3A25225E8D00037BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3825225E8D00037BBB /* Main.storyboard */; };
+		2B5DDD3C25225E9300037BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3B25225E9300037BBB /* Assets.xcassets */; };
+		2B5DDD3F25225E9300037BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5DDD3D25225E9300037BBB /* LaunchScreen.storyboard */; };
+		A21ACD2C144F186EE2F6346C /* Pods_Loanus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A172D232EF60CE3CAC6E1E40 /* Pods_Loanus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		244B605E76D783836FD79AF3 /* Pods-Loanus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loanus.release.xcconfig"; path = "Target Support Files/Pods-Loanus/Pods-Loanus.release.xcconfig"; sourceTree = "<group>"; };
+		2B5DDD2F25225E8D00037BBB /* Loanus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loanus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5DDD3225225E8D00037BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B5DDD3425225E8D00037BBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B5DDD3625225E8D00037BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B5DDD3925225E8D00037BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B5DDD3B25225E9300037BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B5DDD3E25225E9300037BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B5DDD4025225E9300037BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F058C0D4F6E0D413DF563C /* Pods-Loanus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loanus.debug.xcconfig"; path = "Target Support Files/Pods-Loanus/Pods-Loanus.debug.xcconfig"; sourceTree = "<group>"; };
+		A172D232EF60CE3CAC6E1E40 /* Pods_Loanus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loanus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5DDD2C25225E8D00037BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21ACD2C144F186EE2F6346C /* Pods_Loanus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5DDD2625225E8D00037BBB = {
+			isa = PBXGroup;
+			children = (
+				2B5DDD3125225E8D00037BBB /* Loanus */,
+				2B5DDD3025225E8D00037BBB /* Products */,
+				653B1E20092D477C16833F3D /* Pods */,
+				B23352BFB64515B3E8368448 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B5DDD3025225E8D00037BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5DDD2F25225E8D00037BBB /* Loanus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5DDD3125225E8D00037BBB /* Loanus */ = {
+			isa = PBXGroup;
+			children = (
+				2B5DDD3225225E8D00037BBB /* AppDelegate.swift */,
+				2B5DDD3425225E8D00037BBB /* SceneDelegate.swift */,
+				2B5DDD3625225E8D00037BBB /* ViewController.swift */,
+				2B5DDD3825225E8D00037BBB /* Main.storyboard */,
+				2B5DDD3B25225E9300037BBB /* Assets.xcassets */,
+				2B5DDD3D25225E9300037BBB /* LaunchScreen.storyboard */,
+				2B5DDD4025225E9300037BBB /* Info.plist */,
+			);
+			path = Loanus;
+			sourceTree = "<group>";
+		};
+		653B1E20092D477C16833F3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46F058C0D4F6E0D413DF563C /* Pods-Loanus.debug.xcconfig */,
+				244B605E76D783836FD79AF3 /* Pods-Loanus.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B23352BFB64515B3E8368448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A172D232EF60CE3CAC6E1E40 /* Pods_Loanus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B5DDD2E25225E8D00037BBB /* Loanus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5DDD4325225E9300037BBB /* Build configuration list for PBXNativeTarget "Loanus" */;
+			buildPhases = (
+				C54535D39419ACA7E60853E8 /* [CP] Check Pods Manifest.lock */,
+				2B5DDD2B25225E8D00037BBB /* Sources */,
+				2B5DDD2C25225E8D00037BBB /* Frameworks */,
+				2B5DDD2D25225E8D00037BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Loanus;
+			productName = Loanus;
+			productReference = 2B5DDD2F25225E8D00037BBB /* Loanus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B5DDD2725225E8D00037BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2B5DDD2E25225E8D00037BBB = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 2B5DDD2A25225E8D00037BBB /* Build configuration list for PBXProject "Loanus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B5DDD2625225E8D00037BBB;
+			productRefGroup = 2B5DDD3025225E8D00037BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B5DDD2E25225E8D00037BBB /* Loanus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5DDD2D25225E8D00037BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5DDD3F25225E9300037BBB /* LaunchScreen.storyboard in Resources */,
+				2B5DDD3C25225E9300037BBB /* Assets.xcassets in Resources */,
+				2B5DDD3A25225E8D00037BBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C54535D39419ACA7E60853E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Loanus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5DDD2B25225E8D00037BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5DDD3725225E8D00037BBB /* ViewController.swift in Sources */,
+				2B5DDD3325225E8D00037BBB /* AppDelegate.swift in Sources */,
+				2B5DDD3525225E8D00037BBB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B5DDD3825225E8D00037BBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5DDD3925225E8D00037BBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B5DDD3D25225E9300037BBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5DDD3E25225E9300037BBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B5DDD4125225E9300037BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B5DDD4225225E9300037BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B5DDD4425225E9300037BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F058C0D4F6E0D413DF563C /* Pods-Loanus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M9L529UU2;
+				INFOPLIST_FILE = Loanus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyeboibukun.Loanus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B5DDD4525225E9300037BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244B605E76D783836FD79AF3 /* Pods-Loanus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M9L529UU2;
+				INFOPLIST_FILE = Loanus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyeboibukun.Loanus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5DDD2A25225E8D00037BBB /* Build configuration list for PBXProject "Loanus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5DDD4125225E9300037BBB /* Debug */,
+				2B5DDD4225225E9300037BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5DDD4325225E9300037BBB /* Build configuration list for PBXNativeTarget "Loanus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5DDD4425225E9300037BBB /* Debug */,
+				2B5DDD4525225E9300037BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B5DDD2725225E8D00037BBB /* Project object */;
+}
