@@ -6,5 +6,5 @@ target 'Loanus' do
   use_frameworks!
 
   # Pods for Loanus
-
+  pod 'Alamofire'
 end

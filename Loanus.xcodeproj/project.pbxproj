@@ -103,6 +103,7 @@
 				2B5DDD2B25225E8D00037BBB /* Sources */,
 				2B5DDD2C25225E8D00037BBB /* Frameworks */,
 				2B5DDD2D25225E8D00037BBB /* Resources */,
+				1D3EEB0A227A1F2167A6D66F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +160,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1D3EEB0A227A1F2167A6D66F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Loanus/Pods-Loanus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Loanus/Pods-Loanus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Loanus/Pods-Loanus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C54535D39419ACA7E60853E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
